@@ -6,7 +6,7 @@ $( document ).ready(function() {
 /// starts the game
 function run() {
   my_game = new Game
-  myView = new BoardView(5)
+  myView = new BoardView(15)
   my_controller = new Controller(myView, my_game)
   my_controller.makeBord()
 }
